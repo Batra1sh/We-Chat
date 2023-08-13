@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Chat | Group Messenger</title>
+    <!-- Establishing Connection between the client and the server -->
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+          <!-- |-> Defer means humari jo script h vo background mein load hoti h, aur background mein load hone ke baad jb DOM ready ho jati h tb vo run ho jati h  -->
+    <script defer src="/js/client.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav>
+        <img src="/Images/logo.png" alt="" class="logo">
+        <h1>Welcome to We Chat - Group Messenger</h1>
+    </nav>
+    <div class="container">
+    </div>
+
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
